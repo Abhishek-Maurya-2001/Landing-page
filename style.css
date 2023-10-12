@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Style for the navigation links */
+ul.nav-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul.nav-list li:last-child {
+    margin-right: 0;
+}
+ul.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul.nav-list li a:hover {
+    color: #ff9900;
+}
+
+header {
+    color:white;
+    text-align: center;
+    padding:90px 0;
+    background-image:url("https://uptukhabar.net/wp-content/uploads/2014/08/dd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+   
+
+    
+}
+
+
+.container-ms {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
